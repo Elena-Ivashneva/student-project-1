@@ -1,0 +1,13 @@
+.button_theme_dark {
+  background-color: $secondaryBgColor;
+  color: $secondaryColor;
+  transition: .2s linear;
+
+  &:hover {
+    background-color: rgba($secondaryBgColor, .85);
+  }
+
+  &:disabled:hover {
+    background-color: rgba($secondaryBgColor, 1);
+  }
+}

@@ -1,0 +1,73 @@
+@import url(https://unpkg.com/swiper@7/swiper-bundle.min.css);
+
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+
+@import "./modules/variables.scss";
+@import "./modules/mixins.scss";
+
+
+@import "./modules/blocks/page/page.scss";
+@import "./modules/blocks/page/__container/page__container.scss";
+@import "./modules/blocks/page/__section/page__section.scss";
+
+@import "./modules/blocks/page/__reset-list/page__reset-list.scss";
+@import "./modules/blocks/page/__second-title/page__second-title.scss";
+@import "./modules/blocks/page/__third-title/page__third-title.scss";
+@import "./modules/blocks/page/__text/page__text.scss";
+
+@import "./modules/blocks/button/button.scss";
+@import "./modules/blocks/button/_theme/button_theme_dark.scss";
+@import "./modules/blocks/button/_theme/button_theme_light.scss";
+
+@import "./modules/blocks/header-and-footer/header-and-footer.scss";
+@import "./modules/blocks/header-and-footer/__subtitle/header-and-footer__subtitle.scss";
+@import "./modules/blocks/header-and-footer/__image/header-and-footer__image.scss";
+
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__container/header__container.scss";
+@import "./modules/blocks/header/__logo/header__logo.scss";
+@import "./modules/blocks/header/__title/header__title.scss";
+@import "./modules/blocks/header/__subtitle/header__subtitle.scss";
+@import "./modules/blocks/header/__image/header__image.scss";
+@import "./modules/blocks/header/__button-details/header__button-details.scss";
+
+@import "./modules/blocks/content/content.scss";
+@import "./modules/blocks/content/__section/content__section.scss";
+
+@import "./modules/blocks/features/__list/features__list.scss";
+@import "./modules/blocks/feature/feature.scss";
+@import "./modules/blocks/feature/__name/feature__name.scss";
+@import "./modules/blocks/feature/__title/feature__title.scss";
+@import "./modules/blocks/feature/__desc/feature__desc.scss";
+
+@import "./modules/blocks/second-title/second-title.scss";
+@import "./modules/blocks/second-title/_type/second-title_type_high.scss";
+
+@import "./modules/blocks/lead/__images/lead__images.scss";
+@import "./modules/blocks/lead/__image/lead__image.scss";
+
+@import "./modules/blocks/feedback-form/feedback-form.scss";
+@import "./modules/blocks/feedback-form/__title/feedback-form__title.scss";
+@import "./modules/blocks/feedback-form/__subtitle/feedback-form__subtitle.scss";
+@import "./modules/blocks/feedback-form/__form/feedback-form__form.scss";
+@import "./modules/blocks/feedback-form/__form-field/feedback-form__form-field.scss";
+@import "./modules/blocks/feedback-form/__form-field/_type/feedback-form__form-field_type_input.scss";
+@import "./modules/blocks/feedback-form/__form-field/_type/feedback-form__form-field_type_textarea.scss";
+@import "./modules/blocks/feedback-form/__submit-button/feedback-form__submit-button.scss";
+
+@import "./modules/blocks/footer/footer.scss";
+@import "./modules/blocks/footer/__container/footer__container.scss";
+@import "./modules/blocks/footer/__title/footer__title.scss";
+@import "./modules/blocks/footer/__subtitle/footer__subtitle.scss";
+@import "./modules/blocks/footer/__image/footer__image.scss";
+@import "./modules/blocks/footer/__button-download/footer__button-download.scss";
+
+@import "./modules/blocks/mobile-hidden/mobile-hidden.scss";
+
+@import "./modules/blocks/slider/slider.scss";
+@import "./modules/blocks/slider/_place/slider_place_lead.scss";
+@import "./modules/blocks/slider/__pagination/slider__pagination.scss";
+@import "./modules/blocks/slider/__pagination-bullet/slider__pagination-bullet.scss";
+@import "./modules/blocks/slider/__pagination-bullet/_active/slider__pagination-bullet_active.scss";

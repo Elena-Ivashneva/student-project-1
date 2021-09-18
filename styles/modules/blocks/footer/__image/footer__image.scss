@@ -1,0 +1,10 @@
+.footer__image {
+  position: relative;
+  top: -30px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .footer__image {
+    top: -32px;
+  }
+}

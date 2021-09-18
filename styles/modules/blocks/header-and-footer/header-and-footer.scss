@@ -1,0 +1,24 @@
+.header-and-footer {
+  display: grid;
+  grid-template-columns: max-content minmax(min-content, 371px);
+  grid-template-rows: max-content 1fr max-content;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .header-and-footer {
+    @include fields(0 0 0 30px);
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .header-and-footer {
+    justify-content: center;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: $mobileNarrow) {
+  .header-and-footer {
+    padding: 20px;
+  }
+}

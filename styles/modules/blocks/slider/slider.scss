@@ -1,0 +1,9 @@
+.slider {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 720px) {
+  .slider {
+    display: none;
+  }
+}

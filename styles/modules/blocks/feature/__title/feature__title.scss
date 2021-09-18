@@ -1,0 +1,11 @@
+.feature__title {
+  min-height: 76px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .feature__title {
+    min-height: 93px;
+    margin-bottom: 19px;
+  }
+}

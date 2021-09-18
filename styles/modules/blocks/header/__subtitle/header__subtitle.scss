@@ -1,0 +1,17 @@
+.header__subtitle {
+  max-width: 450px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .header__subtitle {
+    max-width: 360px;
+    @include font(15px, 1.33);
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .header__subtitle {
+    max-width: 260px;
+    @include font(12px, 1.21);
+  }
+}

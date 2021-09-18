@@ -1,0 +1,5 @@
+.lead__images {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  justify-content: space-between;
+}

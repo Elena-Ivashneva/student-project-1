@@ -1,0 +1,17 @@
+.feedback-form {
+  @include background($primaryBgColor, $bgRadiusSmall);
+  @include blockFont($fontFamily, $primaryColor);
+  padding: 60px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .feedback-form {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: $mobileNarrow) {
+  .feedback-form {
+    padding: 20px;
+  }
+}

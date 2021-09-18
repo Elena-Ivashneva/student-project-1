@@ -1,0 +1,16 @@
+.second-title {
+  @include blockFont($fontFamily, $primaryColor);
+  @include fontWithWeight(60px, 1.13, 600);
+}
+
+@media screen and (max-width: $tabletWide) {
+  .second-title {
+    @include font(33px, 1.12);
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .second-title {
+    @include font(26px, 1.21);
+  }
+}

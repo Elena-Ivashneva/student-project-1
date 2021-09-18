@@ -1,0 +1,10 @@
+.header {
+  @include background($secondaryBgColor, $bgRadius);
+  @include blockFont($fontFamily, $secondaryColor);
+}
+
+@media screen and (max-width: $mobile) {
+  .header {
+    background: none;
+  }
+}

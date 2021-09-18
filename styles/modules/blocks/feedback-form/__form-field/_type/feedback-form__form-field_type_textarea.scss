@@ -1,0 +1,11 @@
+.feedback-form__form-field_type_textarea {
+  width: 100%;
+  min-height: 130px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .feedback-form__form-field_type_textarea {
+    margin-bottom: 50px;
+  }
+}

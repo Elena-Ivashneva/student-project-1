@@ -1,0 +1,5 @@
+@media screen and (max-width: $mobile) {
+  .footer__subtitle {
+    @include font(12px, 1.21);
+  }
+}

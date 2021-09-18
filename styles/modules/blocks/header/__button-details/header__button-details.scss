@@ -1,0 +1,17 @@
+.header__button-details {
+  width: 240px;
+  margin-bottom: 130px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .header__button-details {
+    margin-bottom: 51px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .header__button-details {
+    width: 260px;
+    margin-bottom: 0;
+  }
+}

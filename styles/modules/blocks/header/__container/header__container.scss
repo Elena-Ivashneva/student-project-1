@@ -1,0 +1,25 @@
+.header__container {
+  column-gap: 82px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .header__container {
+    grid-template-columns: max-content minmax(min-content, 275px);
+    column-gap: 43px;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .header__container {
+    grid-template-columns: minmax(max-content, 368px) 275px;
+    column-gap: 35px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .header__container {
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(4, max-content);
+    @include background($secondaryBgColor, $bgRadiusSmall);
+  }
+}

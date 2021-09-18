@@ -1,0 +1,11 @@
+.page__text {
+  margin: 0;
+  @include font(16px, 1.5);
+  opacity: .6;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .page__text {
+    @include font(15px, 20px);
+  }
+}

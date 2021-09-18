@@ -1,0 +1,9 @@
+.feature__desc {
+  margin-left: 1px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .feature__desc {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,18 @@
+.feedback-form__title {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .feedback-form__title {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .feedback-form__title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
