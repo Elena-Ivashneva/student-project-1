@@ -1,0 +1,9 @@
+.content__section {
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .content__section {
+    margin-bottom: 70px;
+  }
+}

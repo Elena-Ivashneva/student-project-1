@@ -1,0 +1,18 @@
+.features__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+@media screen and (max-width: $tablet) {
+  .features__list {
+    column-gap: 10px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .features__list {
+    grid-template-columns: repeat(2, auto);
+    column-gap: 0;
+  }
+}

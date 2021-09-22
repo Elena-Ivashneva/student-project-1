@@ -1,0 +1,13 @@
+.feature__name {
+  margin: 0 0 20px 1px;
+  @include fontWithWeight(18px, 1.11, 500);
+  opacity: .6;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .feature__name {
+    margin-left: 0;
+    margin-bottom: 12px;
+    @include font(15px, 1.33);
+  }
+}

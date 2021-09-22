@@ -1,0 +1,10 @@
+.footer {
+  @include background($secondaryBgColor, $bgRadius);
+  @include blockFont($fontFamily, $secondaryColor);
+}
+
+@media screen and (max-width: $mobile) {
+  .footer {
+    background: none;
+  }
+}

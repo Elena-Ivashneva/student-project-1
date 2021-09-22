@@ -1,0 +1,19 @@
+.feedback-form__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .feedback-form__form {
+    max-width: 470px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .feedback-form__form {
+    width: 100%;
+  }
+}

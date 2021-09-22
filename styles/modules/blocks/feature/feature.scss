@@ -1,0 +1,19 @@
+.feature {
+  @include background($primaryBgColor, $bgRadius);
+  @include blockFont($fontFamily, $primaryColor);
+  min-height: 308px;
+  @include fields(40px 40px 40px 39px);
+}
+
+@media screen and (max-width: $tabletWide) {
+  .feature {
+    min-height: 284px;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: $mobileNarrow) {
+  .feature {
+    padding: 20px;
+  }
+}

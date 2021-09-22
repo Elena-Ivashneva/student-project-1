@@ -1,0 +1,17 @@
+@media screen and (min-width: 1240px) {
+  .second-title_type_high {
+    line-height: 1.15;
+  }
+}
+
+@media screen and (max-width: $tabletWide) {
+  .second-title_type_high {
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .second-title_type_high {
+    padding-right: 0;
+  }
+}

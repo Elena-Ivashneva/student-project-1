@@ -1,0 +1,28 @@
+.footer__container {
+  height: 470px;
+  column-gap: 259px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .footer__container {
+    height: 400px;
+    grid-template-columns: max-content minmax(min-content, 299px);
+    column-gap: 79px;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .footer__container {
+    grid-template-columns: minmax(max-content, 308px) 299px;
+    column-gap: 71px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .footer__container {
+    min-height: 266px;
+    height: auto;
+    grid-template-columns: max-content;
+    @include background($secondaryBgColor, $bgRadius);
+  }
+}

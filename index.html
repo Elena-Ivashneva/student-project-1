@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Умное приложение для рисования</title>
+  <meta name="description" content="Учебный проект первого проектного месяца.
+      Адаптивная верстка и реализация базовой функциональности лендинга.">
+  <meta name="keywords" content="HTML, SCSS, Flexbox, Grid Layout, медиа-запросы, JavaScript">
+  <meta name="author" content="Елена Ивашнева">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="page">
+  <div class="page__container">
+
+    <header class="header">
+      <div class="header__container header-and-footer page__section">
+        <img class="header__logo"
+          src="./images/header-logo.svg" alt="Логотип с изображением каляки">
+        <div>
+          <h1 class="header__title">Не умеете рисовать? Не беда!</h1>
+          <p class="header__subtitle header-and-footer__subtitle">
+            С помощью нашего приложения вы можете чиркануть каляку и получить шедевр.
+          </p>
+        </div>
+        <img class="header__image header-and-footer__image"
+          src="./images/iphone-header.png" alt="Мобильный телефон с калякой в виде птички на экране">
+        <button class="header__button-details button button_theme_light" type="button">
+          Подробнее
+        </button>
+      </div>
+    </header>
+
+    <main class="content page__section">
+
+      <section class="features content__section mobile-hidden" aria-label="Основные особенности приложения">
+        <ul class="features__list page__reset-list">
+          <li class="feature">
+            <p class="feature__name">AI</p>
+            <h3 class="feature__title page__third-title">Умный интелект приложения</h3>
+            <p class="feature__desc page__text">
+              С помощью AI приложение анализирует&nbsp;картины мастеров и современных практиков рисования,
+              и&nbsp;достраивает картину за вас.
+            </p>
+          </li>
+          <li class="feature">
+            <p class="feature__name">Ч/Б и Цвет</p>
+            <h3 class="feature__title page__third-title">Рисуйте в любом стиле</h3>
+            <p class="feature__desc page__text">
+              Будь то карандашная каляка-маляка или цветное произведение, приложение поможет в любой ситуации.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- slider main container -->
+      <section class="slider slider_place_features features content__section" aria-label="Основные особенности приложения">
+        <!-- Additional required wrapper -->
+        <ul class="slider__wrapper features__list page__reset-list">
+          <!-- Slides -->
+          <li class="slider__slide feature">
+            <p class="feature__name">AI</p>
+            <h3 class="feature__title page__third-title">Умный интелект приложения</h3>
+            <p class="feature__desc page__text">
+              С помощью AI приложение анализирует&nbsp;картины мастеров и современных практиков рисования,
+              и&nbsp;достраивает картину за вас.
+            </p>
+          </li>
+          <li class="slider__slide feature">
+            <p class="feature__name">Ч/Б и Цвет</p>
+            <h3 class="feature__title page__third-title">Рисуйте в любом стиле</h3>
+            <p class="feature__desc page__text">
+              Будь то карандашная каляка-маляка или цветное произведение, приложение поможет в любой ситуации.
+            </p>
+          </li>
+        </ul>
+        <!-- If we need pagination -->
+        <div class="slider__pagination"></div>
+      </section>
+
+      <section class="lead content__section">
+        <h2 class="second-title page__second-title content__section">
+          Чик-чирик и ваша каляка превращается в&nbsp;изумительное произведение искусства.
+        </h2>
+
+        <ul class="lead__images page__reset-list mobile-hidden">
+          <li>
+            <img class="lead__image"
+              src="./images/iphone1-lead.png" alt="Мобильный телефон с калякой в виде лица на экране">
+          </li>
+          <li>
+            <img class="lead__image"
+              src="./images/iphone2-lead.png" alt="Превращение каляки в рисунок">
+          </li>
+          <li>
+            <img class="lead__image"
+              src="./images/iphone3-lead.png" alt="Мобильный телефон с рисунком лица на экране">
+          </li>
+        </ul>
+
+        <!-- slider main container -->
+        <div class="slider slider_place_lead">
+          <!-- Additional required wrapper -->
+          <ul class="slider__wrapper lead__images page__reset-list">
+            <!-- Slides -->
+            <li class="slider__slide">
+              <img class="lead__image"
+                src="./images/iphone1-lead.png" alt="Мобильный телефон с калякой в виде лица на экране">
+            </li>
+            <li class="slider__slide">
+              <img class="lead__image"
+                src="./images/iphone2-lead.png" alt="Превращение каляки в рисунок">
+            </li>
+            <li class="slider__slide">
+              <img class="lead__image"
+                src="./images/iphone3-lead.png" alt="Мобильный телефон с рисунком лица на экране">
+            </li>
+          </ul>
+          <!-- If we need pagination -->
+          <div class="slider__pagination"></div>
+        </div>
+      </section>
+
+      <section class="features content__section mobile-hidden" aria-label="Основные особенности приложения">
+        <ul class="features__list page__reset-list">
+          <li class="feature">
+            <p class="feature__name">Быстро</p>
+            <h3 class="feature__title page__third-title">Проблем с рисованием — нет</h3>
+            <p class="feature__desc page__text">
+              Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная кисть и многие другие...
+            </p>
+          </li>
+          <li class="feature">
+            <p class="feature__name">Просто</p>
+            <h3 class="feature__title page__third-title">Нарисовали, преобразовали, сохранили</h3>
+            <p class="feature__desc page__text">
+              Раз, два, три, больше нечего тут рассказать.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- slider main container -->
+      <section class="slider slider_place_features features content__section" aria-label="Основные особенности приложения">
+        <!-- Additional required wrapper -->
+        <ul class="slider__wrapper features__list page__reset-list">
+          <!-- Slides -->
+          <li class="slider__slide feature">
+            <p class="feature__name">Быстро</p>
+            <h3 class="feature__title page__third-title">Проблем с рисованием — нет</h3>
+            <p class="feature__desc page__text">
+              Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная кисть и многие другие...
+            </p>
+          </li>
+          <li class="slider__slide feature">
+            <p class="feature__name">Просто</p>
+            <h3 class="feature__title page__third-title">Нарисовали, преобразовали, сохранили</h3>
+            <p class="feature__desc page__text">
+              Раз, два, три, больше нечего тут рассказать.
+            </p>
+          </li>
+        </ul>
+        <!-- If we need pagination -->
+        <div class="slider__pagination"></div>
+      </section>
+
+      <section class="call-to-action content__section">
+        <h2 class="second-title second-title_type_high page__second-title">
+          Качайте приложение и&nbsp;улучшайте свои художества, а&nbsp;потом хвастайтесь ими!
+        </h2>
+      </section>
+
+      <section class="feedback-form">
+        <h2 class="feedback-form__title page__third-title">Хотите нам что-то посоветовать?</h2>
+        <p class="feedback-form__subtitle page__text">Оставьте заявку и мы свяжемся с&nbsp;вами.</p>
+
+        <form action="#" class="feedback-form__form" name="feedback-form" autocomplete="off">
+          <input type="text" class="feedback-form__form-field feedback-form__form-field_type_input"
+            name="name" placeholder="Ваше Имя" required>
+          <input type="email" class="feedback-form__form-field feedback-form__form-field_type_input"
+            name="email" placeholder="Контактный Email" required>
+          <textarea class="feedback-form__form-field feedback-form__form-field_type_textarea"
+            name="message" placeholder="Сообщение" required></textarea>
+          <button class="feedback-form__submit-button button button_theme_dark" type="submit">
+            Оставить заявку
+          </button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container header-and-footer page__section">
+        <h2 class="footer__title page__third-title">Хотите скачать приложение?</h2>
+        <p class="footer__subtitle header-and-footer__subtitle">
+          Качайте в ЭпСтор и ГуглПлэй.
+        </p>
+        <img class="footer__image header-and-footer__image mobile-hidden"
+          src="./images/iphone-footer.png" alt="Мобильный телефон с рисунком жеста «Класс!» на экране">
+        <button class="footer__button-download button button_theme_light" type="button" disabled>
+          Уже скоро!
+        </button>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

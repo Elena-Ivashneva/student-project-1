@@ -1,0 +1,9 @@
+.feedback-form__submit-button {
+  width: 194px;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .feedback-form__submit-button {
+    width: 100%;
+  }
+}

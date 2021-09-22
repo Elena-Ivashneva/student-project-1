@@ -1,0 +1,23 @@
+.button {
+  border: none;
+  padding: 0;
+  height: 54px;
+  border-radius: $elRadius;
+  font-family: $fontFamily;
+  @include fontWithWeight(16px, 1.5, 600);
+  cursor: pointer;
+}
+
+@media screen and (max-width: $tabletWide) {
+  .button {
+    height: 48px;
+    @include font(14px, 1.71);
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .button {
+    height: 44px;
+    @include font(12px, 2);
+  }
+}

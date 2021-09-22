@@ -1,0 +1,10 @@
+.page__third-title {
+  margin: 0;
+  @include fontWithWeight(32px, 1.19, 600);
+}
+
+@media screen and (max-width: $tabletWide) {
+  .page__third-title {
+    @include font(26px, 1.21);
+  }
+}

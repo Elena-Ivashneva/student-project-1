@@ -1,0 +1,17 @@
+.feedback-form__subtitle {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: $mobile) {
+  .feedback-form__subtitle {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: $mobileNarrow) {
+  .feedback-form__subtitle {
+    max-width: 260px;
+    margin: 0 auto 80px;
+  }
+}

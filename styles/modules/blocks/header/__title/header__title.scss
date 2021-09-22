@@ -1,0 +1,27 @@
+.header__title {
+  margin: 60px 0 29px -3px;
+  max-width: 650px;
+  @include fontWithWeight(60px, 1.15, bold);
+}
+
+@media screen and (max-width: $tabletWide) {
+  .header__title {
+    margin: 50px 10px 21px 0;
+    max-width: 360px;
+    @include font(33px, 1.12);
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .header__title {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .header__title {
+    margin-bottom: 15px;
+    max-width: 260px;
+    @include font(24px, 1.21);
+  }
+}

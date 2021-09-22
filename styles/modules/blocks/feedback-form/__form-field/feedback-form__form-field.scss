@@ -1,0 +1,36 @@
+.feedback-form__form-field {
+  @include background($secondaryColor, $elRadius);
+  @include fields(14px 19px);
+  @include formBorder(0);
+  @include font(16px, 1.5);
+  color: inherit;
+  transition: .1s linear;
+
+  &::placeholder {
+    line-height: 1.5;
+    color: rgba($primaryColor, .3);
+  }
+
+  &:hover, &:focus {
+    @include formBorder(1);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+    cursor: auto;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .feedback-form__form-field {
+    @include font(12px, 2);
+
+    &::placeholder {
+      line-height: 2;
+    }
+  }
+}

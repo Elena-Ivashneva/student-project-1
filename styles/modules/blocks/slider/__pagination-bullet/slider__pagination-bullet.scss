@@ -1,0 +1,12 @@
+.slider__pagination-bullet {
+  border: none;
+  padding: 0;
+  width: 4px;
+  height: 4px;
+  @include background(#d9d9d9, 50%);
+  margin-right: 4px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
